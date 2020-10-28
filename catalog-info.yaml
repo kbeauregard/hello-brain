@@ -1,0 +1,16 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-brain
+  description: Test brainfuck program
+  labels:
+    privacy: public
+  annotations:
+    circleci.com/project-slug: github/kbeauregard/hello-brain
+  tags:
+    - brainfuck
+spec:
+  type: library
+  lifecycle: experimental
+  owner: kyle.beauregard@numerator.com
